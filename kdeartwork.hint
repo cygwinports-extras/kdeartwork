@@ -1,0 +1,11 @@
+category: KDE
+requires: kdeartwork-emoticons kdeartwork-iconthemes kdeartwork-kscreensaver kdeartwork-kwin-styles kdeartwork-kworldclock kdeartwork-sounds kdeartwork-styles kdeartwork-wallpapers
+sdesc: "KDE additional artwork (meta-package)"
+ldesc: "This package contains additional artwork for KDE:
+* emoticons
+* icon themes
+* screensavers
+* sounds
+* wallpapers
+* widget styles
+* window styles"
