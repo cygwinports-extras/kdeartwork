@@ -1,0 +1,11 @@
+category: KDE
+external-source: kdeartwork
+sdesc: "KDE icon themes: ikons, kdeclassic, kids, locolor, slick"
+ldesc: "This package contains additional artwork for KDE:
+* emoticons
+* icon themes
+* screensavers
+* sounds
+* wallpapers
+* widget styles
+* window styles"

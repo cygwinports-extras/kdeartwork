@@ -1,0 +1,312 @@
+kdeartwork-kscreensaver
+------------------------------------------
+This package contains additional screensavers for KDE.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  kdelibs4-3.5.8-1
+  libGL1-7.0.1-1
+  libGLU1-7.0.1-1
+  libX11_6-1.1.3-1
+  libXt6-1.0.5-1
+  libart_lgpl2-2.3.19-1
+  qt3-3.3.8-3
+  xscreensaver-5.03-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  ftp://ftp.kde.org/pub/kde/stable/3.5.8/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack kdeartwork-3.5.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kdeartwork-3.5.8-X.cygport all
+
+This will create:
+  /usr/src/kdeartwork-3.5.8-X-src.tar.bz2
+  /usr/src/kdeartwork-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-emoticons-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-iconthemes-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-kscreensaver-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-kwin-styles-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-kworldclock-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-sounds-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-styles-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-wallpapers-3.5.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+(kdeartwork-kscreensaver)
+  /usr/bin/kbanner.kss.exe
+  /usr/bin/kblob.kss.exe
+  /usr/bin/kclock.kss.exe
+  /usr/bin/keuphoria.kss.exe
+  /usr/bin/kfiresaver.kss.exe
+  /usr/bin/kflux.kss.exe
+  /usr/bin/kfountain.kss.exe
+  /usr/bin/kgravity.kss.exe
+  /usr/bin/klines.kss.exe
+  /usr/bin/klorenz.kss.exe
+  /usr/bin/kpartsaver.kss.exe
+  /usr/bin/kpendulum.kss.exe
+  /usr/bin/kpolygon.kss.exe
+  /usr/bin/krotation.kss.exe
+  /usr/bin/kscience.kss.exe
+  /usr/bin/kslideshow.kss.exe
+  /usr/bin/ksolarwinds.kss.exe
+  /usr/bin/kspace.kss.exe
+  /usr/bin/kswarm.kss.exe
+  /usr/bin/kvm.kss.exe
+  /usr/bin/kwave.kss.exe
+  /usr/bin/kxsconfig.exe
+  /usr/bin/kxsrun.exe
+  /usr/share/applnk/System/ScreenSavers/KBanner.desktop
+  /usr/share/applnk/System/ScreenSavers/KBlob.desktop
+  /usr/share/applnk/System/ScreenSavers/KClock.desktop
+  /usr/share/applnk/System/ScreenSavers/KEuphoria.desktop
+  /usr/share/applnk/System/ScreenSavers/KFiresaver.desktop
+  /usr/share/applnk/System/ScreenSavers/KFountain.desktop
+  /usr/share/applnk/System/ScreenSavers/KGravity.desktop
+  /usr/share/applnk/System/ScreenSavers/KLines-saver.desktop
+  /usr/share/applnk/System/ScreenSavers/KLorenz.desktop
+  /usr/share/applnk/System/ScreenSavers/KPendulum.desktop
+  /usr/share/applnk/System/ScreenSavers/KPolygon.desktop
+  /usr/share/applnk/System/ScreenSavers/KRotation.desktop
+  /usr/share/applnk/System/ScreenSavers/KScience.desktop
+  /usr/share/applnk/System/ScreenSavers/KSlideshow.desktop
+  /usr/share/applnk/System/ScreenSavers/KSolarWinds.desktop
+  /usr/share/applnk/System/ScreenSavers/KSpace.desktop
+  /usr/share/applnk/System/ScreenSavers/KSwarm.desktop
+  /usr/share/applnk/System/ScreenSavers/KVm.desktop
+  /usr/share/applnk/System/ScreenSavers/KWave.desktop
+  /usr/share/applnk/System/ScreenSavers/anemone.desktop
+  /usr/share/applnk/System/ScreenSavers/antinspect.desktop
+  /usr/share/applnk/System/ScreenSavers/antmaze.desktop
+  /usr/share/applnk/System/ScreenSavers/antspotlight.desktop
+  /usr/share/applnk/System/ScreenSavers/apollonian.desktop
+  /usr/share/applnk/System/ScreenSavers/apple2.desktop
+  /usr/share/applnk/System/ScreenSavers/atlantis.desktop
+  /usr/share/applnk/System/ScreenSavers/attraction.desktop
+  /usr/share/applnk/System/ScreenSavers/atunnel.desktop
+  /usr/share/applnk/System/ScreenSavers/barcode.desktop
+  /usr/share/applnk/System/ScreenSavers/blaster.desktop
+  /usr/share/applnk/System/ScreenSavers/blitspin.desktop
+  /usr/share/applnk/System/ScreenSavers/blocktube.desktop
+  /usr/share/applnk/System/ScreenSavers/boing.desktop
+  /usr/share/applnk/System/ScreenSavers/bouboule.desktop
+  /usr/share/applnk/System/ScreenSavers/bouncingcow.desktop
+  /usr/share/applnk/System/ScreenSavers/braid.desktop
+  /usr/share/applnk/System/ScreenSavers/bsod.desktop
+  /usr/share/applnk/System/ScreenSavers/bubble3d.desktop
+  /usr/share/applnk/System/ScreenSavers/bubbles.desktop
+  /usr/share/applnk/System/ScreenSavers/bumps.desktop
+  /usr/share/applnk/System/ScreenSavers/cage.desktop
+  /usr/share/applnk/System/ScreenSavers/carousel.desktop
+  /usr/share/applnk/System/ScreenSavers/ccurve.desktop
+  /usr/share/applnk/System/ScreenSavers/celtic.desktop
+  /usr/share/applnk/System/ScreenSavers/circuit.desktop
+  /usr/share/applnk/System/ScreenSavers/cloudlife.desktop
+  /usr/share/applnk/System/ScreenSavers/compass.desktop
+  /usr/share/applnk/System/ScreenSavers/coral.desktop
+  /usr/share/applnk/System/ScreenSavers/crackberg.desktop
+  /usr/share/applnk/System/ScreenSavers/critical.desktop
+  /usr/share/applnk/System/ScreenSavers/crystal.desktop
+  /usr/share/applnk/System/ScreenSavers/cube21.desktop
+  /usr/share/applnk/System/ScreenSavers/cubenetic.desktop
+  /usr/share/applnk/System/ScreenSavers/cubestorm.desktop
+  /usr/share/applnk/System/ScreenSavers/cynosure.desktop
+  /usr/share/applnk/System/ScreenSavers/dangerball.desktop
+  /usr/share/applnk/System/ScreenSavers/decayscreen.desktop
+  /usr/share/applnk/System/ScreenSavers/deco.desktop
+  /usr/share/applnk/System/ScreenSavers/demon.desktop
+  /usr/share/applnk/System/ScreenSavers/discrete.desktop
+  /usr/share/applnk/System/ScreenSavers/distort.desktop
+  /usr/share/applnk/System/ScreenSavers/drift.desktop
+  /usr/share/applnk/System/ScreenSavers/endgame.desktop
+  /usr/share/applnk/System/ScreenSavers/engine.desktop
+  /usr/share/applnk/System/ScreenSavers/epicycle.desktop
+  /usr/share/applnk/System/ScreenSavers/eruption.desktop
+  /usr/share/applnk/System/ScreenSavers/euler2d.desktop
+  /usr/share/applnk/System/ScreenSavers/fadeplot.desktop
+  /usr/share/applnk/System/ScreenSavers/fiberlamp.desktop
+  /usr/share/applnk/System/ScreenSavers/flag.desktop
+  /usr/share/applnk/System/ScreenSavers/flame.desktop
+  /usr/share/applnk/System/ScreenSavers/flipflop.desktop
+  /usr/share/applnk/System/ScreenSavers/flipscreen3d.desktop
+  /usr/share/applnk/System/ScreenSavers/flow.desktop
+  /usr/share/applnk/System/ScreenSavers/fluidballs.desktop
+  /usr/share/applnk/System/ScreenSavers/flurry.desktop
+  /usr/share/applnk/System/ScreenSavers/flyingtoasters.desktop
+  /usr/share/applnk/System/ScreenSavers/fontglide.desktop
+  /usr/share/applnk/System/ScreenSavers/forest.desktop
+  /usr/share/applnk/System/ScreenSavers/fuzzyflakes.desktop
+  /usr/share/applnk/System/ScreenSavers/gears.desktop
+  /usr/share/applnk/System/ScreenSavers/glblur.desktop
+  /usr/share/applnk/System/ScreenSavers/gleidescope.desktop
+  /usr/share/applnk/System/ScreenSavers/glforestfire.desktop
+  /usr/share/applnk/System/ScreenSavers/glhanoi.desktop
+  /usr/share/applnk/System/ScreenSavers/glknots.desktop
+  /usr/share/applnk/System/ScreenSavers/glplanet.desktop
+  /usr/share/applnk/System/ScreenSavers/glslideshow.desktop
+  /usr/share/applnk/System/ScreenSavers/glsnake.desktop
+  /usr/share/applnk/System/ScreenSavers/goop.desktop
+  /usr/share/applnk/System/ScreenSavers/grav.desktop
+  /usr/share/applnk/System/ScreenSavers/greynetic.desktop
+  /usr/share/applnk/System/ScreenSavers/halftone.desktop
+  /usr/share/applnk/System/ScreenSavers/halo.desktop
+  /usr/share/applnk/System/ScreenSavers/hopalong.desktop
+  /usr/share/applnk/System/ScreenSavers/hyperball.desktop
+  /usr/share/applnk/System/ScreenSavers/hypercube.desktop
+  /usr/share/applnk/System/ScreenSavers/hypertorus.desktop
+  /usr/share/applnk/System/ScreenSavers/ifs.desktop
+  /usr/share/applnk/System/ScreenSavers/imsmap.desktop
+  /usr/share/applnk/System/ScreenSavers/interaggregate.desktop
+  /usr/share/applnk/System/ScreenSavers/interference.desktop
+  /usr/share/applnk/System/ScreenSavers/intermomentary.desktop
+  /usr/share/applnk/System/ScreenSavers/jigglypuff.desktop
+  /usr/share/applnk/System/ScreenSavers/jigsaw.desktop
+  /usr/share/applnk/System/ScreenSavers/juggle.desktop
+  /usr/share/applnk/System/ScreenSavers/juggler3d.desktop
+  /usr/share/applnk/System/ScreenSavers/julia.desktop
+  /usr/share/applnk/System/ScreenSavers/kaleidescope.desktop
+  /usr/share/applnk/System/ScreenSavers/klein.desktop
+  /usr/share/applnk/System/ScreenSavers/kpartsaver.desktop
+  /usr/share/applnk/System/ScreenSavers/kumppa.desktop
+  /usr/share/applnk/System/ScreenSavers/lament.desktop
+  /usr/share/applnk/System/ScreenSavers/laser.desktop
+  /usr/share/applnk/System/ScreenSavers/lavalite.desktop
+  /usr/share/applnk/System/ScreenSavers/lightning.desktop
+  /usr/share/applnk/System/ScreenSavers/lisa.desktop
+  /usr/share/applnk/System/ScreenSavers/lissie.desktop
+  /usr/share/applnk/System/ScreenSavers/lmorph.desktop
+  /usr/share/applnk/System/ScreenSavers/loop.desktop
+  /usr/share/applnk/System/ScreenSavers/maze.desktop
+  /usr/share/applnk/System/ScreenSavers/memscroller.desktop
+  /usr/share/applnk/System/ScreenSavers/menger.desktop
+  /usr/share/applnk/System/ScreenSavers/metaballs.desktop
+  /usr/share/applnk/System/ScreenSavers/mirrorblob.desktop
+  /usr/share/applnk/System/ScreenSavers/mismunch.desktop
+  /usr/share/applnk/System/ScreenSavers/moebius.desktop
+  /usr/share/applnk/System/ScreenSavers/moire.desktop
+  /usr/share/applnk/System/ScreenSavers/moire2.desktop
+  /usr/share/applnk/System/ScreenSavers/molecule.desktop
+  /usr/share/applnk/System/ScreenSavers/morph3d.desktop
+  /usr/share/applnk/System/ScreenSavers/mountain.desktop
+  /usr/share/applnk/System/ScreenSavers/munch.desktop
+  /usr/share/applnk/System/ScreenSavers/nerverot.desktop
+  /usr/share/applnk/System/ScreenSavers/noof.desktop
+  /usr/share/applnk/System/ScreenSavers/noseguy.desktop
+  /usr/share/applnk/System/ScreenSavers/pacman.desktop
+  /usr/share/applnk/System/ScreenSavers/pedal.desktop
+  /usr/share/applnk/System/ScreenSavers/penetrate.desktop
+  /usr/share/applnk/System/ScreenSavers/penrose.desktop
+  /usr/share/applnk/System/ScreenSavers/petri.desktop
+  /usr/share/applnk/System/ScreenSavers/phosphor.desktop
+  /usr/share/applnk/System/ScreenSavers/piecewise.desktop
+  /usr/share/applnk/System/ScreenSavers/pinion.desktop
+  /usr/share/applnk/System/ScreenSavers/pipes.desktop
+  /usr/share/applnk/System/ScreenSavers/polyhedra.desktop
+  /usr/share/applnk/System/ScreenSavers/polyominoes.desktop
+  /usr/share/applnk/System/ScreenSavers/polytopes.desktop
+  /usr/share/applnk/System/ScreenSavers/pong.desktop
+  /usr/share/applnk/System/ScreenSavers/popsquares.desktop
+  /usr/share/applnk/System/ScreenSavers/providence.desktop
+  /usr/share/applnk/System/ScreenSavers/pulsar.desktop
+  /usr/share/applnk/System/ScreenSavers/pyro.desktop
+  /usr/share/applnk/System/ScreenSavers/queens.desktop
+  /usr/share/applnk/System/ScreenSavers/rd-bomb.desktop
+  /usr/share/applnk/System/ScreenSavers/ripples.desktop
+  /usr/share/applnk/System/ScreenSavers/rocks.desktop
+  /usr/share/applnk/System/ScreenSavers/rorschach.desktop
+  /usr/share/applnk/System/ScreenSavers/rotor.desktop
+  /usr/share/applnk/System/ScreenSavers/rotzoomer.desktop
+  /usr/share/applnk/System/ScreenSavers/rubik.desktop
+  /usr/share/applnk/System/ScreenSavers/sballs.desktop
+  /usr/share/applnk/System/ScreenSavers/shadebobs.desktop
+  /usr/share/applnk/System/ScreenSavers/sierpinski.desktop
+  /usr/share/applnk/System/ScreenSavers/sierpinski3d.desktop
+  /usr/share/applnk/System/ScreenSavers/slidescreen.desktop
+  /usr/share/applnk/System/ScreenSavers/slip.desktop
+  /usr/share/applnk/System/ScreenSavers/sonar.desktop
+  /usr/share/applnk/System/ScreenSavers/speedmine.desktop
+  /usr/share/applnk/System/ScreenSavers/sphere.desktop
+  /usr/share/applnk/System/ScreenSavers/spheremonics.desktop
+  /usr/share/applnk/System/ScreenSavers/spiral.desktop
+  /usr/share/applnk/System/ScreenSavers/spotlight.desktop
+  /usr/share/applnk/System/ScreenSavers/sproingies.desktop
+  /usr/share/applnk/System/ScreenSavers/squiral.desktop
+  /usr/share/applnk/System/ScreenSavers/stairs.desktop
+  /usr/share/applnk/System/ScreenSavers/starfish.desktop
+  /usr/share/applnk/System/ScreenSavers/starwars.desktop
+  /usr/share/applnk/System/ScreenSavers/stonerview.desktop
+  /usr/share/applnk/System/ScreenSavers/strange.desktop
+  /usr/share/applnk/System/ScreenSavers/substrate.desktop
+  /usr/share/applnk/System/ScreenSavers/superquadrics.desktop
+  /usr/share/applnk/System/ScreenSavers/swirl.desktop
+  /usr/share/applnk/System/ScreenSavers/t3d.desktop
+  /usr/share/applnk/System/ScreenSavers/tangram.desktop
+  /usr/share/applnk/System/ScreenSavers/thornbird.desktop
+  /usr/share/applnk/System/ScreenSavers/timetunnel.desktop
+  /usr/share/applnk/System/ScreenSavers/triangle.desktop
+  /usr/share/applnk/System/ScreenSavers/truchet.desktop
+  /usr/share/applnk/System/ScreenSavers/twang.desktop
+  /usr/share/applnk/System/ScreenSavers/vermiculate.desktop
+  /usr/share/applnk/System/ScreenSavers/vidwhacker.desktop
+  /usr/share/applnk/System/ScreenSavers/vines.desktop
+  /usr/share/applnk/System/ScreenSavers/wander.desktop
+  /usr/share/applnk/System/ScreenSavers/webcollage.desktop
+  /usr/share/applnk/System/ScreenSavers/whirlwindwarp.desktop
+  /usr/share/applnk/System/ScreenSavers/whirlygig.desktop
+  /usr/share/applnk/System/ScreenSavers/worm.desktop
+  /usr/share/applnk/System/ScreenSavers/wormhole.desktop
+  /usr/share/applnk/System/ScreenSavers/zoom.desktop
+  /usr/share/apps/kfiresaver/kfs_debris.ogg
+  /usr/share/apps/kfiresaver/kfs_kde.png
+  /usr/share/apps/kfiresaver/kfs_letters.desc
+  /usr/share/apps/kfiresaver/kfs_letters1.png
+  /usr/share/apps/kfiresaver/kfs_letters2.png
+  /usr/share/apps/kfiresaver/kfs_particle.png
+  /usr/share/apps/kfiresaver/kfs_particle_diastar.png
+  /usr/share/apps/kfiresaver/kfs_particle_flare.png
+  /usr/share/apps/kscreensaver/image.png
+  /usr/share/apps/kscreensaver/kscience.png
+  /usr/share/apps/kscreensaver/particle.png
+
+------------------
+
+Port Notes:
+
+----- version 3.5.8-1 -----
+Version bump.
+
+----- version 3.5.7-1 -----
+Version bump.
+
+----- version 3.5.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,12 @@
+category: KDE
+requires: cygwin kdelibs4 kwin qt3
+external-source: kdeartwork
+sdesc: "KDE additional KWin styles"
+ldesc: "This package contains additional artwork for KDE:
+* emoticons
+* icon themes
+* screensavers
+* sounds
+* wallpapers
+* widget styles
+* window styles"

@@ -1,0 +1,183 @@
+kdeartwork-kwin-styles
+------------------------------------------
+This package contains additional window styles for KDE.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  kdelibs4-3.5.8-1
+  kwin-3.5.8-1
+  qt3-3.3.8-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  ftp://ftp.kde.org/pub/kde/stable/3.5.8/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack kdeartwork-3.5.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kdeartwork-3.5.8-X.cygport all
+
+This will create:
+  /usr/src/kdeartwork-3.5.8-X-src.tar.bz2
+  /usr/src/kdeartwork-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-emoticons-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-iconthemes-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-kscreensaver-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-kwin-styles-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-kworldclock-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-sounds-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-styles-3.5.8-X.tar.bz2
+  /usr/src/kdeartwork-wallpapers-3.5.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+(kdeartwork-kwin-styles)
+  /usr/lib/kde3/kwin3_cde.dll
+  /usr/lib/kde3/kwin3_cde.la
+  /usr/lib/kde3/kwin3_glow.dll
+  /usr/lib/kde3/kwin3_glow.la
+  /usr/lib/kde3/kwin3_icewm.dll
+  /usr/lib/kde3/kwin3_icewm.la
+  /usr/lib/kde3/kwin3_kde1.dll
+  /usr/lib/kde3/kwin3_kde1.la
+  /usr/lib/kde3/kwin3_kstep.dll
+  /usr/lib/kde3/kwin3_kstep.la
+  /usr/lib/kde3/kwin3_openlook.dll
+  /usr/lib/kde3/kwin3_openlook.la
+  /usr/lib/kde3/kwin3_riscos.dll
+  /usr/lib/kde3/kwin3_riscos.la
+  /usr/lib/kde3/kwin3_smoothblend.dll
+  /usr/lib/kde3/kwin3_smoothblend.la
+  /usr/lib/kde3/kwin3_system.dll
+  /usr/lib/kde3/kwin3_system.la
+  /usr/lib/kde3/kwin_cde_config.dll
+  /usr/lib/kde3/kwin_cde_config.la
+  /usr/lib/kde3/kwin_glow_config.dll
+  /usr/lib/kde3/kwin_glow_config.la
+  /usr/lib/kde3/kwin_icewm_config.dll
+  /usr/lib/kde3/kwin_icewm_config.la
+  /usr/lib/kde3/kwin_smoothblend_config.dll
+  /usr/lib/kde3/kwin_smoothblend_config.la
+  /usr/share/apps/kwin/cde.desktop
+  /usr/share/apps/kwin/glow-themes/default/background.png
+  /usr/share/apps/kwin/glow-themes/default/close.png
+  /usr/share/apps/kwin/glow-themes/default/close_glow.png
+  /usr/share/apps/kwin/glow-themes/default/default.theme
+  /usr/share/apps/kwin/glow-themes/default/help.png
+  /usr/share/apps/kwin/glow-themes/default/help_glow.png
+  /usr/share/apps/kwin/glow-themes/default/iconify.png
+  /usr/share/apps/kwin/glow-themes/default/iconify_glow.png
+  /usr/share/apps/kwin/glow-themes/default/stickyoff.png
+  /usr/share/apps/kwin/glow-themes/default/stickyoff_glow.png
+  /usr/share/apps/kwin/glow-themes/default/stickyon.png
+  /usr/share/apps/kwin/glow-themes/default/stickyon_glow.png
+  /usr/share/apps/kwin/glow-themes/glass/background.png
+  /usr/share/apps/kwin/glow-themes/glass/close.png
+  /usr/share/apps/kwin/glow-themes/glass/close_glow.png
+  /usr/share/apps/kwin/glow-themes/glass/glass.theme
+  /usr/share/apps/kwin/glow-themes/glass/help.png
+  /usr/share/apps/kwin/glow-themes/glass/help_glow.png
+  /usr/share/apps/kwin/glow-themes/glass/iconify.png
+  /usr/share/apps/kwin/glow-themes/glass/iconify_glow.png
+  /usr/share/apps/kwin/glow-themes/glass/stickyoff.png
+  /usr/share/apps/kwin/glow-themes/glass/stickyoff_glow.png
+  /usr/share/apps/kwin/glow-themes/glass/stickyon.png
+  /usr/share/apps/kwin/glow-themes/glass/stickyon_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/background.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/close.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/close_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/glass_huge.theme
+  /usr/share/apps/kwin/glow-themes/glass_huge/help.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/help_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/iconify.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/iconify_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/stickyoff.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/stickyoff_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/stickyon.png
+  /usr/share/apps/kwin/glow-themes/glass_huge/stickyon_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_large/background.png
+  /usr/share/apps/kwin/glow-themes/glass_large/close.png
+  /usr/share/apps/kwin/glow-themes/glass_large/close_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_large/glass_large.theme
+  /usr/share/apps/kwin/glow-themes/glass_large/help.png
+  /usr/share/apps/kwin/glow-themes/glass_large/help_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_large/iconify.png
+  /usr/share/apps/kwin/glow-themes/glass_large/iconify_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_large/stickyoff.png
+  /usr/share/apps/kwin/glow-themes/glass_large/stickyoff_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_large/stickyon.png
+  /usr/share/apps/kwin/glow-themes/glass_large/stickyon_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/background.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/close.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/close_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/glass_verylarge.theme
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/help.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/help_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/iconify.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/iconify_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/stickyoff.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/stickyoff_glow.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/stickyon.png
+  /usr/share/apps/kwin/glow-themes/glass_verylarge/stickyon_glow.png
+  /usr/share/apps/kwin/glow-themes/square/background.png
+  /usr/share/apps/kwin/glow-themes/square/close.png
+  /usr/share/apps/kwin/glow-themes/square/close_glow.png
+  /usr/share/apps/kwin/glow-themes/square/help.png
+  /usr/share/apps/kwin/glow-themes/square/help_glow.png
+  /usr/share/apps/kwin/glow-themes/square/iconify.png
+  /usr/share/apps/kwin/glow-themes/square/iconify_glow.png
+  /usr/share/apps/kwin/glow-themes/square/square.theme
+  /usr/share/apps/kwin/glow-themes/square/stickyoff.png
+  /usr/share/apps/kwin/glow-themes/square/stickyoff_glow.png
+  /usr/share/apps/kwin/glow-themes/square/stickyon.png
+  /usr/share/apps/kwin/glow-themes/square/stickyon_glow.png
+  /usr/share/apps/kwin/glow.desktop
+  /usr/share/apps/kwin/icewm-themes/MenschMaschine/default.theme
+  /usr/share/apps/kwin/icewm-themes/Model/default.theme
+  /usr/share/apps/kwin/icewm-themes/default.theme
+  /usr/share/apps/kwin/icewm.desktop
+  /usr/share/apps/kwin/kde1.desktop
+  /usr/share/apps/kwin/kstep.desktop
+  /usr/share/apps/kwin/openlook.desktop
+  /usr/share/apps/kwin/riscos.desktop
+  /usr/share/apps/kwin/smoothblend.desktop
+  /usr/share/apps/kwin/system.desktop
+
+------------------
+
+Port Notes:
+
+----- version 3.5.8-1 -----
+Version bump.
+
+----- version 3.5.7-1 -----
+Version bump.
+
+----- version 3.5.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
