@@ -1,17 +1,17 @@
-kdeartwork-wallpapers
+kde-wallpapers-kdeartwork
 ------------------------------------------
 This package contains additional desktop wallpapers for KDE.
 
 Build requirements:
-  cygwin-1.5.25-11
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.9-1
+  cygwin-1.5.25-15
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.4-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
   sed-4.1.5-2
 
@@ -19,34 +19,39 @@ Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/3.5.9/src/
+  ftp://ftp.kde.org/pub/kde/stable/3.5.10/src/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdeartwork-3.5.9-X-src.tar.bz2
+  unpack kdeartwork-3.5.10-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdeartwork-3.5.9-X.cygport all
+  cygport ./kdeartwork-3.5.10-X.cygport all
 
 This will create:
-  /usr/src/kdeartwork-3.5.9-X-src.tar.bz2
-  /usr/src/kdeartwork-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-emoticons-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-iconthemes-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-kscreensaver-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-kwin-styles-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-kworldclock-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-sounds-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-styles-3.5.9-X.tar.bz2
-  /usr/src/kdeartwork-wallpapers-3.5.9-X.tar.bz2
+  /usr/src/kdeartwork-3.5.10-X-src.tar.bz2
+  /usr/src/kdeartwork-3.5.10-X.tar.bz2
+
+  /usr/src/kde-emoticons-kdeartwork-3.5.10-X.tar.bz2
+  /usr/src/kde-icons-ikons-3.5.10-X.tar.bz2
+  /usr/src/kde-icons-kdeclassic-3.5.10-X.tar.bz2
+  /usr/src/kde-icons-kids-3.5.10-X.tar.bz2
+  /usr/src/kde-icons-locolor-3.5.10-X.tar.bz2
+  /usr/src/kde-icons-slick-3.5.10-X.tar.bz2
+  /usr/src/kde-sounds-kdeartwork-3.5.10-X.tar.bz2
+  /usr/src/kde-wallpapers-kdeartwork-3.5.10-X.tar.bz2
+  /usr/src/kde3-styles-kdeartwork-3.5.10-X.tar.bz2
+  /usr/src/kdeartwork-3.5.10-X.tar.bz2
+  /usr/src/kscreensaver-kdeartwork-3.5.10-X.tar.bz2
+  /usr/src/kwin-styles-kdeartwork-3.5.10-X.tar.bz2
+  /usr/src/kworldclock-maps-kdeartwork-3.5.10-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-(kdeartwork-wallpapers)
   /usr/share/wallpapers/Appropriately-Left-Handed-2.jpg
   /usr/share/wallpapers/Superfluous-Organ-1.jpg
   /usr/share/wallpapers/The-Good-Times-1.jpg
@@ -67,6 +72,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 3.5.10-1 -----
+Version bump.
 
 ----- version 3.5.9-1 -----
 Version bump.

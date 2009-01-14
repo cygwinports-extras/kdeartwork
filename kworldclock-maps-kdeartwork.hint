@@ -1,0 +1,12 @@
+category: KDE
+requires: kworldclock
+external-source: kdeartwork
+sdesc: "Additional KWorldClock maps"
+ldesc: "This package contains additional artwork for KDE:
+* emoticons
+* icon themes
+* screensavers
+* sounds
+* wallpapers
+* widget styles
+* window styles"

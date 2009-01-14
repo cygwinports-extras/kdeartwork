@@ -1,7 +1,7 @@
 category: KDE
-requires: cygwin kdelibs4 qt3
+requires: cygwin kdelibs4 libqt3
 external-source: kdeartwork
-sdesc: "KDE additional widget styles"
+sdesc: "KDE3 additional widget styles"
 ldesc: "This package contains additional artwork for KDE:
 * emoticons
 * icon themes

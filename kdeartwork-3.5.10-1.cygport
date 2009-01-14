@@ -1,0 +1,31 @@
+inherit kde3
+
+PKG_NAMES="${PN} kde-emoticons-${PN} kscreensaver-${PN}
+	kwin-styles-${PN} kworldclock-maps-${PN} kde-sounds-${PN} kde3-styles-${PN}
+	kde-wallpapers-${PN}"
+kdeartwork_CONTENTS="etc/ usr/share/doc/${P}/"
+kde_emoticons_kdeartwork_CONTENTS='usr/share/emoticons/'
+kscreensaver_kdeartwork_CONTENTS='usr/bin/ usr/share/applnk/ usr/share/apps/k*saver/'
+kwin_styles_kdeartwork_CONTENTS='usr/lib/kde3/kwin* usr/share/apps/kwin/'
+kworldclock_maps_kdeartwork_CONTENTS="usr/share/apps/kworldclock/"
+kde_sounds_kdeartwork_CONTENTS='usr/share/sounds/'
+kde3_styles_kdeartwork_CONTENTS='usr/lib/kde3/kstyle* usr/lib/kde3/plugins/ usr/share/apps/kstyle/'
+kde_wallpapers_kdeartwork_CONTENTS='usr/share/wallpapers/'
+
+for pkg in ${PKG_NAMES}
+do
+	declare ${pkg//-/_}_CONTENTS+=" usr/share/doc/Cygwin/${pkg}-${PV}.README"
+done
+
+for i in ikons kdeclassic kids locolor slick
+do
+	PKG_NAMES+=" kde-icons-${i}"
+	declare kde_icons_${i}_CONTENTS="usr/share/icons/${i}/"
+done
+
+src_install() {
+	cd ${B}
+	kde3_install
+
+	rename Locolor locolor ${D}/usr/share/icons/Locolor
+}

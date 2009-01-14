@@ -1,7 +1,6 @@
 category: KDE
-requires: kworldclock
 external-source: kdeartwork
-sdesc: "KDE additional KWorldClock artwork"
+sdesc: "KDE slick icon theme"
 ldesc: "This package contains additional artwork for KDE:
 * emoticons
 * icon themes

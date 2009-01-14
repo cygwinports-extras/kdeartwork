@@ -1,6 +1,7 @@
 category: KDE
+requires: cygwin kdelibs4 libqt3 libGL1 libGLU1 libX11_6 libXt6 libart_lgpl_2_2 xscreensaver
 external-source: kdeartwork
-sdesc: "KDE icon themes: ikons, kdeclassic, kids, locolor, slick"
+sdesc: "KDE additional screensavers and xscreensaver utility"
 ldesc: "This package contains additional artwork for KDE:
 * emoticons
 * icon themes
