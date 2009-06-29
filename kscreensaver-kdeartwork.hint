@@ -1,5 +1,5 @@
 category: KDE
-requires: cygwin kdelibs4 libqt3 libGL1 libGLU1 libX11_6 libXt6 libart_lgpl_2_2 xscreensaver
+requires: kdelibs4 libqt3 libGL1 libGLU1 libX11_6 libXt6 libart_lgpl_2_2 xscreensaver
 external-source: kdeartwork
 sdesc: "KDE additional screensavers and xscreensaver utility"
 ldesc: "This package contains additional artwork for KDE:
