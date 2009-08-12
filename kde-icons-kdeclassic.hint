@@ -1,11 +1,5 @@
 category: KDE
+requires: hicolor-icon-theme
 external-source: kdeartwork
 sdesc: "KDE classic icon theme"
-ldesc: "This package contains additional artwork for KDE:
-* emoticons
-* icon themes
-* screensavers
-* sounds
-* wallpapers
-* widget styles
-* window styles"
+ldesc: "This package contains additional artwork for KDE."

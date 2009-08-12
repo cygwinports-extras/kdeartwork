@@ -1,0 +1,24 @@
+inherit kde3
+
+DO_NOT_COMPILE="emoticons kscreensaver kwin-styles kworldclock icewm-themes sounds wallpapers"
+
+PKG_NAMES="${PN} kde3-style-${PN}"
+kde3_style_dotnet_CONTENTS="usr/lib/kde3/kstyle_dotnet_config.dll
+                            usr/lib/kde3/plugins/styles/dotnet.dll
+                            usr/share/kde3/apps/kstyle/themes/dotnet.themerc"
+kde3_style_phase_CONTENTS="usr/lib/kde3/kstyle_phase_config.dll
+                           usr/lib/kde3/plugins/styles/phasestyle.dll
+                           usr/share/kde3/apps/kstyle/themes/phase.themerc"
+
+for i in ikons kids locolor slick
+do
+	PKG_NAMES+=" kde-icons-${i}"
+	declare kde_icons_${i}_CONTENTS="usr/share/icons/${i}/"
+done
+
+src_install() {
+	cd ${B}
+	kde3_install
+
+	mv ${D}/usr/share/icons/{L,l}ocolor
+}

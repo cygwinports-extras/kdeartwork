@@ -1,6 +1,5 @@
 category: KDE
-requires: kde-emoticons-kdeartwork kde-icons-ikons kde-icons-kdeclassic kde-icons-kids kde-icons-locolor kde-icons-slick kde-sounds-kdeartwork kde-wallpapers-kdeartwork kde3-styles-kdeartwork kdeartwork kscreensaver-kdeartwork kwin-styles-kdeartwork kworldclock-maps-kdeartwork
-sdesc: "KDE additional artwork (meta-package)"
+sdesc: "KDE additional artwork"
 ldesc: "This package contains additional artwork for KDE:
 * emoticons
 * icon themes
