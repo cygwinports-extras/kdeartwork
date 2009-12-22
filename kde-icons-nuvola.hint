@@ -1,5 +1,5 @@
 category: KDE
 requires: hicolor-icon-theme
 external-source: kdeartwork
-sdesc: "KDE classic icon theme"
+sdesc: "KDE nuvola icon theme"
 ldesc: "This package contains additional artwork for KDE."

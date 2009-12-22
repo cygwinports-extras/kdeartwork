@@ -1,9 +1,9 @@
 inherit kde4
 
-PKG_NAMES="${PN} kde-icons-kdeclassic kde4-style-phase"
+PKG_NAMES="${PN} kde-icons-nuvola kde4-style-phase"
 kdeartwork_CONTENTS="--exclude=kstyle usr/share/doc/ usr/share/emoticons/
                      usr/share/kde4/ usr/share/sounds/ usr/share/wallpapers/"
-kde_icons_kdeclassic_CONTENTS="etc/postinstall/ usr/share/icons/kdeclassic/"
+kde_icons_nuvola_CONTENTS="etc/postinstall/ usr/share/icons/nuvola/"
 kde4_style_phase_CONTENTS="usr/lib/kde4/kstyle_phase_config.dll
                            usr/lib/kde4/plugins/styles/phasestyle.dll
                            usr/share/kde4/apps/kstyle/themes/phase.themerc"
