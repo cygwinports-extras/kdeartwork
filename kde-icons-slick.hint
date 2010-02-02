@@ -1,5 +1,0 @@
-category: KDE
-requires: hicolor-icon-theme
-external-source: kdeartwork
-sdesc: "KDE slick icon theme"
-ldesc: "This package contains additional artwork for KDE."
