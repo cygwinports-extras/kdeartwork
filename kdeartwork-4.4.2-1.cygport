@@ -1,6 +1,6 @@
 inherit kde4
 
-PATCH_URI="4.3.5-xscreensaver.patch"
+PATCH_URI="4.4.2-xscreensaver.patch"
 
 PKG_NAMES="${PN} kde-icons-nuvola kde4-style-phase kscreensaver-${PN}"
 kdeartwork_CONTENTS="usr/share/doc/ usr/share/emoticons/ usr/share/kde4/apps/color-schemes/
