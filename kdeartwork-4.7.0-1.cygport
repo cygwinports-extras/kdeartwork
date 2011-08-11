@@ -2,9 +2,10 @@ inherit kde4
 
 PATCH_URI="4.4.2-xscreensaver.patch"
 
-PKG_NAMES="${PN} kde-icons-nuvola kde4-style-phase kscreensaver-${PN} kwin-${PN}"
-kdeartwork_CONTENTS="--exclude=k*saver --exclude=kstyle --exclude=nuvola
+PKG_NAMES="${PN} kde-icons-mono kde-icons-nuvola kde4-style-phase kscreensaver-${PN} kwin-${PN}"
+kdeartwork_CONTENTS="--exclude=k*saver --exclude=kstyle --exclude=mono --exclude=nuvola
                      --exclude=ScreenSavers --exclude=kwin usr/share/"
+kde_icons_mono_CONTENTS="etc/postinstall/ usr/share/icons/mono/"
 kde_icons_nuvola_CONTENTS="etc/postinstall/ usr/share/icons/nuvola/"
 kde4_style_phase_CONTENTS="usr/lib/kde4/kstyle_phase_config.dll
                            usr/lib/kde4/plugins/styles/phasestyle.dll
