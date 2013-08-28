@@ -1,16 +1,28 @@
 inherit kde4
 
+NAME="kdeartwork"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="KDE"
+SUMMARY="KDE additional artwork"
+DESCRIPTION="Part of the KDE artwork suite"
+
 PATCH_URI="4.4.2-xscreensaver.patch"
 
-PKG_NAMES="${PN} kde-icons-mono kde-icons-nuvola kde4-style-phase kscreensaver-${PN} kwin-${PN}"
+PKG_NAMES="${NAME} kde-icons-mono kde-icons-nuvola kde4-style-phase kscreensaver-${PN} kwin-${PN}"
 kdeartwork_CONTENTS="--exclude=k*saver --exclude=kstyle --exclude=mono --exclude=nuvola
                      --exclude=ScreenSavers --exclude=kwin usr/share/"
+kde_icons_mono_SUMMARY="KDE monochrome icon theme"
 kde_icons_mono_CONTENTS="etc/postinstall/ usr/share/icons/mono/"
+kde_icons_nuvola_SUMMARY="KDE nuvola icon theme"
 kde_icons_nuvola_CONTENTS="etc/postinstall/ usr/share/icons/nuvola/"
+kde4_style_phase_SUMMARY="KDE4 Phase style"
 kde4_style_phase_CONTENTS="usr/lib/kde4/kstyle_phase_config.dll
                            usr/lib/kde4/plugins/styles/phasestyle.dll
                            usr/share/kde4/apps/kstyle/themes/phase.themerc"
+kscreensaver_kdeartwork_SUMMARY="KDE4 additional screensavers and XScreenSaver integration"
 kscreensaver_kdeartwork_CONTENTS="usr/bin/*.kss.exe
                                   usr/share/kde4/apps/*saver/
                                   usr/share/kde4/services/ScreenSavers/"
+kwin_kdeartwork_SUMMARY="KWin styles"
 kwin_kdeartwork_CONTENTS="usr/lib/kde4/kwin* usr/share/kde4/apps/kwin/"
